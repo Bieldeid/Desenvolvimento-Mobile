@@ -35,8 +35,12 @@ public class Contato {
         return telefone;
     }
 
-    public void setTelefone(){
+    public void setTelefone(String telefone){
         this.telefone = telefone;
+    }
+
+    public String toString(){
+        return this.id + " | " + this.nome + " | " + this.email + " | "  + this.telefone;
     }
 
 }
